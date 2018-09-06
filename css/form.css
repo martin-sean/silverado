@@ -1,0 +1,27 @@
+/* Sean Martin - s3645417 - Web Programming Assignment 3 */
+
+form {
+  color:black;
+}
+
+label {
+  display: inline-block;
+  text-align: center;
+  width: 220px;
+}
+
+p select {
+  display: inline-block;
+  width: 220px;
+}
+
+@media screen and (max-width: 959px) {  
+  label {
+    text-align: left;
+    width: 20vw;
+  }
+  
+  p select {
+    width: 20vw;
+  }
+}

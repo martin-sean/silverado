@@ -1,0 +1,41 @@
+/* Sean Martin - s3645417 - Web Programming Assignment 3 */
+
+#order-confirm-button {
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+  color: white;
+  font-size: 12pt;
+  font-weight: bold;
+  background-color: rgb(60,  60, 102);
+}
+
+#checkout-form {
+  width: 100%;
+}
+
+.input-line {
+  margin: 10px;
+  font-size: 14pt;
+  color: rgb(60, 60, 102);
+}
+
+#name, #email, #phone {
+  border: 1px solid rgb(60,  60, 102);
+}
+
+#checkout-form input {
+  font-size: 14pt;
+}
+
+#checkout-title {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+.not-valid {
+  display: none;
+}

@@ -1,0 +1,185 @@
+/* Sean Martin - s3645417 - Web Programming Assignment 3 */
+
+/* imports for additional style sheets */
+@import url("navbar.css");
+@import url("index.css");
+@import url("form.css");
+@import url("now-showing.css");
+@import url("information.css");
+@import url("cart.css");
+@import url("checkout.css");
+@import url("confirmation.css");
+
+* {
+  margin: 0px auto;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+header, .spacer, nav, main {
+  max-width: 960px;
+}
+
+.logo {
+  display: inline-block;
+  width: 45px;
+  padding: 10px;
+}
+
+header h1 {
+  display: inline-block;
+  vertical-align: top;
+  margin: 13px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 26pt;
+  letter-spacing: 8pt;
+  padding: 0px;
+  color: white;
+
+}
+
+.cart-items {
+  float: right;
+}
+
+.item-num {
+  display: inline-block;
+}
+
+#cart {
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 17px;
+  height: 40px;
+  background-color: rgb(60, 60, 102);
+}
+
+
+.spacer {
+  height: 20px;
+  background-color: rgb(239, 239, 253);
+}
+
+h2 {
+  font-family: "Open Sans";
+  background-color: inherit;
+}
+
+body {
+  background-color: white;
+  font-family: "Open Sans";
+}
+
+header, nav, main {
+  box-sizing: border-box;
+  color: white;
+  background-color: rgb(60, 60, 102);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lightBG {
+  color: rgb(60, 60, 102);
+  background-color: rgb(239, 239, 253);
+}
+
+header {
+  height: 70px;
+  width: 100%;
+}
+
+footer {
+  background-color: rgb(60, 60, 102);
+  box-shadow: 0px 500px 0px 500px rgb(60, 60, 102);
+}
+
+footer #footer-nav {
+  height: 225px;
+  color: white;
+  background: none;
+  background-image: url("../images/DolbyCinema225.png");
+  background-position: center;
+}
+
+footer #footer-navbox {
+  height: 225px;
+  padding-top: 60px;
+  max-width: 960px;
+  padding-left: 100px;
+  color: white;
+  background: none;
+}
+
+footer #footer-navbox p {
+  background: none;
+  color: white;
+}
+
+footer #footer-nowshowing {
+  padding-top: 40px;
+  background: none;
+}
+
+footer #footer-nowshowing a {
+  background: none;
+  padding: 10px;
+  width: auto;
+  color: white;
+  font-size: 130%;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  text-decoration: none;
+  border: 3px solid white;
+}
+
+footer #footer-nowshowing a:hover {
+  color: rgb(60, 60, 102);
+  background-color: rgb(239, 239, 253);
+}
+
+footer #footer-credits {
+  height: 140px;
+  padding: 30px;
+  color: white;
+  background-color: rgb(60, 60, 102);
+}
+
+footer #footer-credits p {
+  color: white;
+  line-height: 1.5em;
+  text-align: center;
+  background-color: inherit;
+}
+
+@media screen and (max-width: 959px) {  
+  header {
+    height: auto;
+    display: inline-block;
+  }
+  
+  header h1 {
+    padding-top:1vw
+    font-size: 10vw;
+    letter-spacing: 1vw;
+  }
+  
+  .spacer {
+    height: 2vw;
+  }
+  
+  footer #footer-navbox {
+    display: inline-block;
+    padding-left: 5vw;
+  }
+  
+  .logo {
+    display: none;
+  }
+  
+  header h1 {
+    width: 70%;
+  }
+}

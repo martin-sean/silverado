@@ -1,0 +1,50 @@
+/* Sean Martin - s3645417 - Web Programming Assignment 3 */
+
+nav {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 24px;
+  text-align: center;
+  margin: 0px auto;
+  padding-top: 8px;
+}
+
+nav a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+
+nav a.active {
+  color: rgb(60, 60, 102);
+  background-color: rgb(239, 239, 253);
+}
+
+nav a:hover, a.clickable {
+  color: rgb(60, 60, 102);
+  background-color: rgb(239, 239, 253);
+  cursor: hand;
+}
+
+@media screen and (max-width: 959px) {
+  nav {
+	font-size: 3vw;
+  }
+  
+  nav a {
+	height: 3.5vw;
+	padding-top: 1vw;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	padding-bottom: 2vw;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  nav a {
+    margin-left: 5px;
+    margin-left: 5px;
+    height: 40px;
+    width: 18%;
+  }
+}

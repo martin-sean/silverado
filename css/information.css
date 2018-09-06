@@ -1,0 +1,35 @@
+/* Sean Martin - s3645417 - Web Programming Assignment 3 */
+
+.label {
+  box-sizing: border-box;
+  padding-left: 0px;
+  height: 40px;
+  background-color: rgb(239, 239, 253);
+}
+
+.label-box {
+  box-sizing: border-box;
+  position: relative;
+  margin: 0px;
+  left: -50px;
+  width: 360px;
+  height: 40px;
+  background-color: rgb(60,  60, 102);
+}
+
+.label-box p {
+  color: white;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  font-weight: Extra-Bold;
+  margin: 0px;
+  padding: 0px 20px;
+  text-align: left;
+  background-color: inherit;
+}
+
+@media screen and (max-width: 1070px) {  
+  .label-box {
+    left: 0px;
+  }
+}

@@ -1,0 +1,162 @@
+/* Sean Martin - s3645417 - Web Programming Assignment 3 */
+
+#information {
+  color: white;
+}
+
+#now-showing {
+  padding: 20px;
+  padding-bottom: 0px;
+  font-size: 14px;
+}
+
+#banners {
+  display: inline-block;
+  font-size: 0px;
+  width: 100%;
+}
+
+.banner {
+  vertical-align: top;
+  display: inline-block;
+  margin: 0px;
+  width: 25%;
+}
+
+.movie-img {
+  width: 100%;
+}
+
+.banner-desc {
+  display: inline-block;
+  width: 100%;
+}
+
+.rating {
+  display: inline-block;
+  margin: 0; 
+  padding: 0;
+  width: 20%;
+}
+
+.caption {
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 4px;
+  margin-left: 8px;
+  font-size: 16px;
+  width: 75%;
+}
+
+.label {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.price-category {
+  font-weight: bold;
+  background-color: rgb(239, 239, 253);
+}
+
+.price-category p {
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.price {
+  text-align: right;
+  padding-right: 60px;
+}
+
+.price- {
+  padding-left: 60px;
+}
+
+/* Tables */
+.table-container {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-color: rgb(239, 239, 253);
+}
+
+.table-border {
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.table tr, .table th, .table td {
+  width: 25%;
+  padding-left: 20px;
+}
+
+.table {
+  border-collapse: collapse;
+  line-height: 30px;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  color: rgb(60,  60, 102);
+  font-size: 20px;
+  width: 100%;
+}
+
+/* the form blocks */
+fieldset {
+  border-color: rgb(60, 60, 102);
+}
+
+.booking-block {
+  display: inline;
+  border: 0px;
+  text-size: 22px;
+  text-align: left;
+}
+
+.times, .seating, #total {
+  display: none;
+}
+
+.dropdown {
+  width: 50px;
+}
+
+#submit-button {
+  display: none;
+  float: right;
+  margin: 5px;
+  width: 150px;
+  color: white;
+  height: 40px;
+  font-weight: bold;
+  background-color: rgb(60,  60, 102);
+}
+
+form {
+  padding: 10px;
+}
+
+form #submit-button:hover, form #submit-button:active {
+  background-color: rgb(239, 239, 253);
+  border: 4px ridge rgb(60,  60, 102);
+  color: rgb(60,  60, 102);
+  cursor: hand;
+}
+
+@media screen and (max-width: 720px) {  
+  .banner {
+    width: 50%;
+  }
+  
+  .banner-desc {
+    display: none;
+  }
+  
+  .table {
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
